@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Dumidu Kasun Rajakaruna",
 };
 const background = {
   // Options: Snow or Particle
@@ -20,11 +20,31 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "I'm an Information Systems undergraduate who is energetic, self-motivated and highly reliable. Able to utilize strong math skills, problem-solving and programming, interpersonal strengths, time-management and organizational abilities, willingly working unpredictable hours and to learn new skills.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
+  {
+    name: "C",
+    faClass: "fab fa-cuttlefish",
+  },
+  {
+    name: "Java",
+    faClass: "fab fa-java",
+  },
+  {
+    name: "Python",
+    faClass: "fab fa-python",
+  },
+  {
+    name: "PHP",
+    faClass: "fab fa-php",
+  },
+  {
+    name: "R",
+    faClass: "fab fa-r-project",
+  },
   {
     name: "HTML5",
     faClass: "fab fa-html5",
@@ -42,76 +62,94 @@ const skillsBar = [
     faClass: "fab fa-sass",
   },
   {
+    name: "Bootstrap",
+    faClass: "fab fa-bootstrap",
+  },
+  {
     name: "Node",
     faClass: "fab fa-node",
   },
   {
-    name: "Python",
-    faClass: "fab fa-python",
+    name: "React",
+    faClass: "fab fa-react",
   },
-  {
-    name: "Java",
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    faClass: "fab fa-php",
-  },
+
   {
     name: "Database",
     faClass: "fas fa-database",
   },
+  // {
+  //   name: "AWS",
+  //   faClass: "fab fa-aws",
+  // },
   {
-    name: "AWS",
-    faClass: "fab fa-aws",
+    name: "Spring Boot",
+    faClass: "fas fa-leaf",
   },
+  {
+    name: "GCP",
+    faClass: "fab fa-google",
+  },
+  {
+    name: "Docker",
+    faClass: "fab fa-docker",
+  },
+  {
+    name: "Android",
+    faClass: "fab fa-android",
+  },
+  {
+    name: "Git",
+    faClass: "fab fa-git-square",
+  },
+
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+const section3Title = "My Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "AutoAid - Service Station Management System",
+    skills: ["React, Tailwind CSS, Spring Boot"],
+    url: "https://github.com/dumidu1998/autoaid-front",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Attendence Management System",
+    skills: ["React, Firebase"],
+    url: "https://github.com/dumidu1998/autoaid-front",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Turis - Online Learning Platform",
+    skills: ["React, Node.js, Express.js, MySQL"],
+    url: "https://github.com/dumidu1998",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Infini Greens",
+    skills: ["React, Node.js, MySQL"],
+    url: "https://github.com/dumidu1998",
   },
   {
     // Add image in './styles/images.css' in #project5
     id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Thoga.lk",
+    skills: ["HTML, CSS, JS, PHP"],
+    url: "https://github.com/dumidu1998",
   },
   {
     // Add image in './styles/images.css' in #project6
     id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Rent Us",
+    skills: ["HTML, CSS, JS, PHP"],
+    url: "https://github.com/dumidu1998",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
@@ -122,20 +160,23 @@ const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    name: "Github Repo Viewer",
+    skills: ["HTML, CSS, JS, PHP"],
+    url: "https://githubrepoview.web.app/",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
+    name: "Instagram Clone",
+    skills: ["HTML, CSS, JS, PHP"],
+    url: "https://dumiagram.web.app/",
   },
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    name: "Mask Detector",
+    skills: ["HTML, CSS, JS, PHP"],
+    url: "https://github.com/dumidu1998/MaskdetectorAPI",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
@@ -144,18 +185,18 @@ const miscellaneous = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
-  contactUrl: "",
+    "Contact me with this form or contact me at my social media. Donwload my CV below for more Details.",
+  copyright: "Dumidu Kasun",
+  contactUrl: "https://formspree.io/f/xoqynkej",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
-  instagram: "https://instagram.com",
-  resume: "https://novoresume.com/",
+  github: "https://github.com/dumidu1998",
+  facebook: "https://facebook.com/dumidukb",
+  linkedin: "https://linkedin.com/in/dumidukasun98/",
+  instagram: "https://instagram.com/__dumikasun__/",
+  resume: "https://drive.google.com/uc?id=1BQRVWWhCYuHmSD6HS5CAz3PjFtAKjqjh&export=download",
 };
 // Dont change anything here
 export {

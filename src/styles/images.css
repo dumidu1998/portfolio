@@ -1,43 +1,43 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('https://images.pexels.com/photos/8801779/pexels-photo-8801779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
 /* Projects Photo */
 .project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/dumiport.appspot.com/o/Screenshot%20(197).png?alt=media&token=6e8233db-001d-4c17-9067-d444578cc54c');
     cursor: none;    
 }
 .project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/dumiport.appspot.com/o/Screenshot%20(173).png?alt=media&token=75f8eb98-e159-42f9-80e7-89902302dd7c');
     cursor: none;
 }
 .project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/dumiport.appspot.com/o/Group%2057.jpg?alt=media&token=ee182483-cf33-4fc2-9acd-ed53a2e3c085');
     cursor: none;
 }
 .project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/dumiport.appspot.com/o/develop-your-react-js-web-app.jpg?alt=media&token=a304f8a3-74c1-47d9-aab8-adf2ec4e5a2a');
     cursor: none;
 }
 .project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/dumiport.appspot.com/o/Screenshot%20(195).png?alt=media&token=09731b3f-d681-4ee0-a0ff-6c7d37c712a8');
     cursor: none;
 }
 .project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/dumiport.appspot.com/o/Screenshot%20(196).png?alt=media&token=cbfc9b68-e6f0-4778-a85d-174c8430cdb4');
     cursor: none;
 }
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Github+Repo+Viewer');
     cursor: none;
 }
 .misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Instagram+Clone');
     cursor: none;
 }
 .misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    background-image: url('https://via.placeholder.com/400x600.png?text=Mask+Detector');
     cursor: none;
 }
