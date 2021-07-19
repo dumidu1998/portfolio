@@ -6,6 +6,7 @@ import Works from "./components/section/Works";
 import Contact from "./components/section/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import firebase from 'firebase';
 import { animation } from "./profile";
 
 function App() {
