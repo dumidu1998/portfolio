@@ -181,9 +181,23 @@ const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc4",
-    name: "Mask Detector",
-    skills: ["HTML, CSS, JS, PHP"],
-    url: "https://github.com/dumidu1998/MaskdetectorAPI",
+    name: "Chrome Extension for Activity Tracking",
+    skills: ["JS, Firebase, Express, Heroku"],
+    url: "https://github.com/dumidu1998/user-activity-tracker",
+  },
+  {
+    // Add image in './styles/images.css' in #misc3
+    id: "misc5",
+    name: "Simple Web Server Using C",
+    skills: ["C"],
+    url: "https://github.com/dumidu1998/Simple-web-Server-in-C",
+  },
+  {
+    // Add image in './styles/images.css' in #misc3
+    id: "misc6",
+    name: "To-Do App",
+    skills: ["React, Firebase"],
+    url: "https://github.com/dumidu1998/to-do-app-",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
