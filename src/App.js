@@ -28,9 +28,8 @@ function App() {
     appId: "1:132154554173:web:eff370d00a39a36406b754",
     measurementId: "G-1HCX0BCHML"
   };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  // firebase.initializeApp(firebaseConfig);
+  // firebase.analytics()
 
   return (
     <div className="App">
