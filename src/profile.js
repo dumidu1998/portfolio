@@ -178,6 +178,13 @@ const miscellaneous = [
     skills: ["HTML, CSS, JS, PHP"],
     url: "https://github.com/dumidu1998/MaskdetectorAPI",
   },
+  {
+    // Add image in './styles/images.css' in #misc3
+    id: "misc4",
+    name: "Mask Detector",
+    skills: ["HTML, CSS, JS, PHP"],
+    url: "https://github.com/dumidu1998/MaskdetectorAPI",
+  },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
