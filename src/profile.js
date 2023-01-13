@@ -20,7 +20,8 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "I'm an Information Systems undergraduate who is energetic, self-motivated and highly reliable. Able to utilize strong math skills, problem-solving and programming, interpersonal strengths, time-management and organizational abilities, willingly working unpredictable hours and to learn new skills.",
+    // "I'm undergraduate with a passion for problem-solving and programming able to utilize strong math skills, problem-solving and programming, interpersonal strengths, time-management and organizational abilities, willingly working unpredictable hours and to learn new skills.",
+    "I am an undergraduate who is extremely motivated and accomplished with a background in software engineering and information systems. I have a strong passion for problem-solving and programming, an energetic and self-motivated nature, and a high level of reliability and time-management. I am passionate about researching deep learning and reinforcement learning.  Additionally, I have worked on several projects as a full-stack engineer.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -41,10 +42,10 @@ const skillsBar = [
     name: "PHP",
     faClass: "fab fa-php",
   },
-  {
-    name: "R",
-    faClass: "fab fa-r-project",
-  },
+  // {
+  //   name: "R",
+  //   faClass: "fab fa-r-project",
+  // },
   {
     name: "HTML5",
     faClass: "fab fa-html5",
@@ -78,10 +79,10 @@ const skillsBar = [
     name: "Database",
     faClass: "fas fa-database",
   },
-  // {
-  //   name: "AWS",
-  //   faClass: "fab fa-aws",
-  // },
+  {
+    name: "AWS",
+    faClass: "fab fa-aws",
+  },
   {
     name: "Spring Boot",
     faClass: "fas fa-leaf",
@@ -102,7 +103,6 @@ const skillsBar = [
     name: "Git",
     faClass: "fab fa-git-square",
   },
-
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
@@ -205,8 +205,7 @@ const miscellaneous = [
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
-  pitch:
-    "Contact me with this form or contact me at my social media. Donwload my CV below for more Details.",
+  pitch: "Contact me with this form or contact me at my social media. Donwload my CV below for more Details.",
   copyright: "Dumidu Kasun",
   contactUrl: "https://formspree.io/f/xoqynkej",
 };
