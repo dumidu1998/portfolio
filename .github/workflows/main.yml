@@ -45,6 +45,7 @@ jobs:
 
   deploy-preview: 
     name: Deploy preview
+    id: depprev
     needs: build
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'pull_request' }}
@@ -59,8 +60,10 @@ jobs:
       - name: Deploy to firebase
         uses: w9jds/firebase-action@v2.0.0
         with:
-          args: hosting:channel:deploy pr${{github.event.pull_request.number}}
+          args: hosting:channel:deploy ${{github.event.pull_request.title}}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - name: Print output
+        run: echo ${{ steps.depprev.outputs.stdout }}
       
     
