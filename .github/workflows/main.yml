@@ -69,7 +69,6 @@ jobs:
         uses: NejcZdovc/comment-pr@v2
         with:
           message: "Execution time: `${{steps.depprev.outputs.result}}`  : `${{steps.depprev.outputs.stdout}}`"
-          identifier: "GITHUB_COMMENT_SCRIPT"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       
