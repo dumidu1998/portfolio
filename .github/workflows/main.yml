@@ -64,12 +64,10 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       - name: Print output
-        run: echo ${{ steps.depprev.outputs.stdout }}
+        run: echo '${{ toJSON(github) }}'
+        run: echo '${{ toJSON(steps) }}'
+        run: echo '${{ steps.depprev.outputs }}'
       - name: Comment time
         uses: NejcZdovc/comment-pr@v2
         with:
-          message: "Execution time: `${{steps.depprev.outputs.result}}`  : `${{steps.depprev.outputs.stdout}}`"
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      
-    
+          message: "Execution time: `${{ steps.depprev.outputs.stdout }}`  : `${{ steps.depprev.outputs.result }}`"
