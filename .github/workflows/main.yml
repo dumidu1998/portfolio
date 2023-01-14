@@ -65,5 +65,12 @@ jobs:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       - name: Print output
         run: echo ${{ steps.depprev.outputs.stdout }}
+      - name: add pr comment
+        uses: mshick/add-pr-comment@v2
+          with:
+            message: |
+              **Hello**
+              🌏
+              ${{ steps.depprev.outputs.stdout }}
       
     
