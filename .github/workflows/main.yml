@@ -63,9 +63,11 @@ jobs:
           args: hosting:channel:deploy pr-${{github.event.pull_request.number}}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-      - name: Print output
+      - name: Print output1
         run: echo '${{ toJSON(github) }}'
+      - name: Print output2
         run: echo '${{ toJSON(steps) }}'
+      - name: Print output3
         run: echo '${{ steps.depprev.outputs }}'
       - name: Comment time
         uses: NejcZdovc/comment-pr@v2
