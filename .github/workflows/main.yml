@@ -60,7 +60,7 @@ jobs:
         uses: w9jds/firebase-action@v2.0.0
         id: depprev
         with:
-          args: hosting:channel:deploy ${{github.event.pull_request.number}}
+          args: hosting:channel:deploy pr-${{github.event.pull_request.number}}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       - name: Print output
