@@ -45,7 +45,6 @@ jobs:
 
   deploy-preview: 
     name: Deploy preview
-    id: depprev
     needs: build
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'pull_request' }}
@@ -59,6 +58,7 @@ jobs:
           path: build
       - name: Deploy to firebase
         uses: w9jds/firebase-action@v2.0.0
+        id: depprev
         with:
           args: hosting:channel:deploy ${{github.event.pull_request.title}}
         env:
