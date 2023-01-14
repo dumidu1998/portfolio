@@ -67,10 +67,10 @@ jobs:
         run: echo ${{ steps.depprev.outputs.stdout }}
       - name: add pr comment
         uses: mshick/add-pr-comment@v2
-          with:
-            message: |
-              **Hello**
-              🌏
-              ${{ steps.depprev.outputs.stdout }}
+        with:
+          message: |
+            **Hello**
+            🌏
+            ${{ steps.depprev.outputs.stdout }}
       
     
