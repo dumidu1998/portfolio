@@ -44,7 +44,7 @@ jobs:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
   deploy-preview: 
-    name: Deploy
+    name: Deploy preview
     needs: build
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'pull_request' }}
