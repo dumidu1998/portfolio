@@ -132,7 +132,7 @@ const projects = [
     id: "project3",
     name: "AutoAid - Service Station Management System",
     skills: ["React, Tailwind CSS, Spring Boot"],
-    url: "https://github.com/dumidu1998",
+    url: "https://github.com/dumidu1998/autoaid-front",
   },
   {
     // Add image in './styles/images.css' in #project4
