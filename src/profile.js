@@ -21,7 +21,7 @@ const section2title = "About Me";
 const about = {
   paragraph:
     // "I'm undergraduate with a passion for problem-solving and programming able to utilize strong math skills, problem-solving and programming, interpersonal strengths, time-management and organizational abilities, willingly working unpredictable hours and to learn new skills.",
-    "I am an undergraduate who is extremely motivated and accomplished with a background in software engineering and information systems. I have a strong passion for problem-solving and programming, an energetic and self-motivated nature, and a high level of reliability and time-management. I am passionate about researching deep learning and reinforcement learning.  Additionally, I have worked on several projects as a full-stack engineer.",
+    "I am an undergraduate who is extremely motivated and accomplished with a background in software engineering and information systems. I have a strong passion for problem-solving and programming, an energetic and self-motivated nature, and a high level of reliability and time-management. I am passionate about researching on deep learning and reinforcement learning.  Additionally, I have worked on several projects as a full-stack engineer.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
