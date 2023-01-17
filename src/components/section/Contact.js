@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 {social.resume && (
                   <div className="dmcv">
-                    <a title="Download Resume" href={social.resume} download>
+                    <a title="Download Resume" className="hidden-mobile" href={social.resume} download>
                       <h5>Download my CV</h5>
                     </a>
                     <a title="Download Resume" href={social.resume} download>

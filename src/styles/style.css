@@ -14,3 +14,9 @@
   align-items: center;
   flex-direction: row;
 }
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
