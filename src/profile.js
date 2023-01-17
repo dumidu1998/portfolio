@@ -220,7 +220,7 @@ const social = {
   facebook: "https://facebook.com/dumidukb",
   linkedin: "https://linkedin.com/in/dumidukasun98/",
   instagram: "https://instagram.com/__dumikasun__/",
-  resume: "https://drive.google.com/uc?id=1BQRVWWhCYuHmSD6HS5CAz3PjFtAKjqjh&export=download",
+  resume: "https://drive.google.com/uc?id=1kMWnESPbVrSfuiFIe-8dRRKxo90fr98H&export=download",
 };
 // Dont change anything here
 export {
