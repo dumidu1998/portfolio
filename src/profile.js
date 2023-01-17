@@ -116,22 +116,22 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "AutoAid - Service Station Management System",
-    skills: ["React, Tailwind CSS, Spring Boot"],
-    url: "https://github.com/dumidu1998/autoaid-front",
+    name: "International Rail - Europe railway ticket booking system",
+    skills: ["Next Js, Nest Js, AWS"],
+    url: "https://www.internationalrail.com.au/",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Attendence Management System",
-    skills: ["React, Firebase"],
-    url: "https://github.com/dumidu1998/autoaid-front",
+    name: "Tackle - Platform to account your crypto wallet",
+    skills: ["Next Js, Nest Js, AWS"],
+    url: "https://www.ordoau.io/",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Turis - Online Learning Platform",
-    skills: ["React, Node.js, Express.js, MySQL"],
+    name: "AutoAid - Service Station Management System",
+    skills: ["React, Tailwind CSS, Spring Boot"],
     url: "https://github.com/dumidu1998",
   },
   {
